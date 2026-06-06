@@ -1,0 +1,33 @@
+User
+├── id
+├── name
+├── email
+└── role
+
+Product
+├── id
+├── title
+├── slug
+├── description
+├── price
+├── stock
+└── category
+
+ProductImage
+├── id
+├── productId
+├── imageUrl
+└── sortOrder
+
+Order
+├── id
+├── userId
+├── amount
+├── status
+└── createdAt
+
+Coupon
+├── id
+├── code
+├── discount
+└── expireDate
